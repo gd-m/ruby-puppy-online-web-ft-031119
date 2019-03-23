@@ -17,6 +17,13 @@ class Dog
   end
 
   def self.all
+<<<<<<< HEAD
     puts @@all.collect { |dog| dog.name }
+=======
+    binding.pry
+    @@all.each do |name|
+
+    end
+>>>>>>> d35adfc36cca58f502c9e77e57733c6f6985061d
   end
 end
